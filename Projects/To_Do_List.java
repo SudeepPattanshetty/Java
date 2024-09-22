@@ -73,9 +73,6 @@ public class To_List {
     public static void main(String[] args)throws IOException{
         Scanner in = new Scanner(System.in);
         InnerTo_List lst = new InnerTo_List();
-        
-        System.out.println("Enter your name: ");
-        String name = in.next();
         ArrayList<String> list = lst.loadTasksFromFile();
 
         while (true) {
